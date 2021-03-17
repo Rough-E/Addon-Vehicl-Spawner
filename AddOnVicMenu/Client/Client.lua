@@ -78,9 +78,3 @@ end
 RegisterCommand('openCarspawnr', function()
 	openCarspawnMenu()
 end)
-
-RegisterCommand('testname', function()
-	ESX.TriggerServerCallback('GetCharacterNameServer', source , cb, player)
-	print(cb())
-	-- print(cb(''.. firstname .. ' ' .. lastname ..''))
-end)
