@@ -75,6 +75,6 @@ function deletecarOnspawn()
 	end
 end
 
-RegisterCommand('openCarspawnr', function()
+RegisterCommand(Config.openCarSpawner, function()
 	openCarspawnMenu()
 end)
