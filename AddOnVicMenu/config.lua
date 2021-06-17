@@ -22,3 +22,5 @@ Config.spawnable = {
 }
 
 Config.openCarSpawnercommand = 'openCarspawnr'
+
+Config.test = {}
